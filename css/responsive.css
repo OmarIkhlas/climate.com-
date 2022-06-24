@@ -1,0 +1,117 @@
+@media only screen and (max-width: 1115px) {
+    .box-1 { height: 370px; }
+    .sec-5-title-text h3{ font-size: 14px; }   
+    .sec-5-title-text p{ font-size: 13px; }
+}
+
+@media only screen and (max-width: 990px) {
+    .sec-5-title-text p {
+        font-size: 11px;
+    }
+    .inner-5-title p {
+        font-size: 14px;
+    }
+    .intro-text p, .sec-3-text {
+        font-size: 14px;
+    }
+    .sec-1, .sec-2, .sec-3, .sec-4{
+        height: 65vh;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .main-heading {
+        justify-content: center;
+        padding: 5px;
+    }
+    .intro-text p, .sec-3-text {
+        font-size: 12px;
+    }
+    .title-intro {
+        font-size: 1.3rem;
+    }
+}
+
+@media only screen and (max-width: 830px) {
+    .intro-text p, .sec-3-text {
+        font-size: 1.3vw;
+    }
+    .title-intro {
+        font-size: 2.2vw;
+    }
+    .sec-3-title {
+        font-size: 2vw;
+        
+    }
+    .sec-1, .sec-2, .sec-3, .sec-4{
+        height: 50vh;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .text-img {
+        flex-direction: column;
+        height: auto;
+        padding: 0;
+    }
+    .title-intro {
+        height: 50px;
+    }
+    .sec-1, .sec-2 {
+        height: 70vh;
+    }
+    .intro-text {
+        width: 95%;
+        margin: 10px;
+        text-align: center;
+    }
+    .intro-text p {
+        font-size: 10px;
+    }
+    .title-intro {
+        font-size: 1rem;
+    }
+    .intro-img {
+        width: 70%;
+    }
+    .inner-5-title p{
+        font-size: 2vw;
+    }
+    .sec-4, .sec-3 {
+        height: 40vh;
+    }
+}
+
+@media only screen and (max-width: 640px){
+    .sec-5 {
+        height: auto;
+    }
+    .inner-5-title {
+        width: 90%;
+    }
+    .sec-5-box {
+        flex-direction: column;
+    }
+    .box-1 {
+        width: 95%;
+        height: auto;
+        margin: 10px 0;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .intro-img img {
+        width: 100%;
+    }
+
+}
+
+@media only screen and (max-width: 450px){
+    .sec-1{
+        height: 60vh;
+        width: 100%;
+    }
+    .sec-4, .sec-3 {
+        height: 30vh;
+    }
+}
